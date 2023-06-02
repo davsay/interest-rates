@@ -16,4 +16,7 @@ Run Application with command
 java -jar target/interest_rates_test-1.0-SNAPSHOT-jar-with-dependencies.jar 1001
 
 ```
-1001 is the amount passed to generate interest for. You can pass any number. These can be space seperated to pass multiple amount to calculate for.
+1001 is the amount passed to generate interest for. You can pass any number. These can be space separated to pass multiple amount to calculate for.
+
+### Assumptions:
+Half Even Rounding is used for interest calculation, with a scale of 2, ensuring we have at most 2 decimal places.
